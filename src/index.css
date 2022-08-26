@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #CAD2C5, #84A98C, #52796F, #354F52, #2F3E46);
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.exchange-rate {
+  background-color: rgb(221, 230, 221);
+  width: 450px;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 6);
+  border-radius: 10px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+
+.input-box {
+  background-color: rgb(218, 227, 238);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 6);
+}
+
+input, select {
+  border: none;
+} 
